@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3157F8DF7E1383C5D482DFDC5D5DCEFE /* Pods-DQSKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0D0EB5C74291007DF0ED86B6B80123 /* Pods-DQSKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39EA4565FD16FE8D3B066ACCF1F1FB69 /* DQSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E24B15E9EF2975994BC7C66D19645CD /* DQSKit-dummy.m */; };
-		6022630E0340C67F23F544EDBC2D4CCA /* DQSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D5D4CD857BB9DD6495610F86ECC77B /* DQSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E355E0C66F51013FDFAB4FF15AF6944 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3150AE0441437D324D444DF5B1C7DA8D /* ReplaceMe.swift */; };
+		5E1AD3CDB1CECEE6D1C9077BFDB52CD5 /* DQSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 940F245B021D5FE51B531310662BED5C /* DQSKit-dummy.m */; };
+		6022630E0340C67F23F544EDBC2D4CCA /* DQSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D755E312CA3E72CC439D2E8CE35DBB3E /* DQSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A99C547AB3E548073AB0BCF56201CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		A50C8955FBAA2F3A7869DFF72197478C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C19DA00819FB466EDDBC253D682E689B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		CB5CC9FBD26AB2A9852B7EEC1908AD77 /* Pods-DQSKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41065495F36BDADEEC18DC7D44C7FEFF /* Pods-DQSKit_Tests-dummy.m */; };
+		D6838F149A023AA40E123C42C73FFD25 /* DQSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B58F3EB7BF17807B389A95C175238 /* DQSUtils.swift */; };
 		E40E600EF67452364324ACEA94AC78AB /* Pods-DQSKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDF6BB2393342531DFAF64D3E01889C /* Pods-DQSKit_Example-dummy.m */; };
 		ED40C55EA6DDBCEFBF83C617E0E1C3D3 /* Pods-DQSKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6364D6C29CE4F5441404BCF5D28987 /* Pods-DQSKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -38,40 +38,40 @@
 
 /* Begin PBXFileReference section */
 		026E0581F361FC886ACFE9493252F5B2 /* Pods-DQSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		07C0DF1A26F019C1CCCE4B5456141C42 /* DQSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DQSKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		07C2ECD36AAF3245AD9F82D855D964E6 /* Pods-DQSKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQSKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		08DBAD29BFBD21D28A8076103C61A15C /* DQSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DQSKit.modulemap; sourceTree = "<group>"; };
 		0AF6F01F6793CCEA50124C59A11B28BB /* Pods-DQSKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQSKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0C559D955F8517B467FC3C1C1827D0A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B625D42635598CEB3ABC81768EDCBDB /* DQSKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = DQSKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		290107F02818A94655EF567BB38EAA1F /* DQSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DQSKit.modulemap; sourceTree = "<group>"; };
 		2CC5EF04A775E714661C4B5654255C47 /* Pods-DQSKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DQSKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EA77FBFFAD3DAFD732C7156DAE8BC1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3150AE0441437D324D444DF5B1C7DA8D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DQSKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		315A64C28117B9E0D037E1EB2F46D9F2 /* DQSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DQSKit.xcconfig; sourceTree = "<group>"; };
-		3278B8293001404C60ED7BC2965AE8F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36D22240D21A4892CB9DA8C4AE8F79E1 /* Pods-DQSKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQSKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3CFFE76F73578C24DE6094C6F058D27B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3E0D0EB5C74291007DF0ED86B6B80123 /* Pods-DQSKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DQSKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		41065495F36BDADEEC18DC7D44C7FEFF /* Pods-DQSKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DQSKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		42019618DC69418752CFB5345794B178 /* Pods-DQSKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DQSKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AEEF6AE6A34E793E00376A32EEFA209 /* Pods-DQSKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DQSKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4BA96AA49A5EAA5D6A171155AD9B88E6 /* Pods_DQSKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DQSKit_Example.framework; path = "Pods-DQSKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52B8D89BD99E77C6A9110426FA4034A7 /* DQSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQSKit-prefix.pch"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		63A40B0FBCF1CE3B6BDA0ACF4AB7584C /* DQSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DQSKit.framework; path = DQSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65348FCA27E8EE78AE3EF5692D4144E5 /* Pods-DQSKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DQSKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A7B5B46D2E0C124415B12BE8C33A157 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6D6364D6C29CE4F5441404BCF5D28987 /* Pods-DQSKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DQSKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6E24B15E9EF2975994BC7C66D19645CD /* DQSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DQSKit-dummy.m"; sourceTree = "<group>"; };
+		7BDF37E649C1BC0609FA48492C976E43 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7CDF6BB2393342531DFAF64D3E01889C /* Pods-DQSKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DQSKit_Example-dummy.m"; sourceTree = "<group>"; };
 		8384EF33D3538A70C40A2D2812C0257F /* Pods-DQSKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQSKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		84169A59CE2B0730CDB2EED58AC84C21 /* Pods-DQSKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQSKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940F245B021D5FE51B531310662BED5C /* DQSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DQSKit-dummy.m"; sourceTree = "<group>"; };
 		983158818585FE8C73B8B3D703E447CA /* Pods-DQSKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DQSKit_Tests.modulemap"; sourceTree = "<group>"; };
 		9BB15A05174141C7A0C959FDDF8A16DD /* Pods-DQSKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DQSKit_Example.modulemap"; sourceTree = "<group>"; };
-		A04F4F0B5CC0B4C4C66A4641AE17872F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A5C9C8929B572E56F31CD7E45BD43392 /* Pods_DQSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DQSKit_Tests.framework; path = "Pods-DQSKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1E4C7CE0D130640932878CA924BCE1 /* DQSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DQSKit.xcconfig; sourceTree = "<group>"; };
+		B3F78B5B387880F14BA85E411A6CB634 /* DQSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQSKit-prefix.pch"; sourceTree = "<group>"; };
 		BDCE5C9FA290455E4E66E2CA541C2CA0 /* Pods-DQSKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQSKit_Example-resources.sh"; sourceTree = "<group>"; };
 		C44CA665877DF8E5E1F54D5516A809F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF1B5289E23E2170DA1F3ED8B4DD9D4A /* Pods-DQSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F3D5D4CD857BB9DD6495610F86ECC77B /* DQSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQSKit-umbrella.h"; sourceTree = "<group>"; };
+		D05B58F3EB7BF17807B389A95C175238 /* DQSUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DQSUtils.swift; path = DQSKit/Classes/DQSUtils.swift; sourceTree = "<group>"; };
+		D755E312CA3E72CC439D2E8CE35DBB3E /* DQSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQSKit-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19724564E8DCCE77100FCF6523F913CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				290107F02818A94655EF567BB38EAA1F /* DQSKit.modulemap */,
+				AC1E4C7CE0D130640932878CA924BCE1 /* DQSKit.xcconfig */,
+				940F245B021D5FE51B531310662BED5C /* DQSKit-dummy.m */,
+				B3F78B5B387880F14BA85E411A6CB634 /* DQSKit-prefix.pch */,
+				D755E312CA3E72CC439D2E8CE35DBB3E /* DQSKit-umbrella.h */,
+				0C559D955F8517B467FC3C1C1827D0A7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DQSKit";
+			sourceTree = "<group>";
+		};
 		3E626227B441D21702D3DBDF54BA1C8E /* Pods-DQSKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,30 +143,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4C1618E85B52B16CD37D74414FA0C7F7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				08DBAD29BFBD21D28A8076103C61A15C /* DQSKit.modulemap */,
-				315A64C28117B9E0D037E1EB2F46D9F2 /* DQSKit.xcconfig */,
-				6E24B15E9EF2975994BC7C66D19645CD /* DQSKit-dummy.m */,
-				52B8D89BD99E77C6A9110426FA4034A7 /* DQSKit-prefix.pch */,
-				F3D5D4CD857BB9DD6495610F86ECC77B /* DQSKit-umbrella.h */,
-				3278B8293001404C60ED7BC2965AE8F6 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DQSKit";
-			sourceTree = "<group>";
-		};
-		4DE4976BF6637D9E8C5C40DECED319C1 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				07C0DF1A26F019C1CCCE4B5456141C42 /* DQSKit.podspec */,
-				3CFFE76F73578C24DE6094C6F058D27B /* LICENSE */,
-				A04F4F0B5CC0B4C4C66A4641AE17872F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +154,7 @@
 		6BB3B4FC9641E5DBB95DB08B228F9862 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				83EAB2B8446D34E1EFC4641FF39A2235 /* DQSKit */,
+				F2C196AC12A271DE77192EA70997314D /* DQSKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -180,15 +170,14 @@
 			);
 			sourceTree = "<group>";
 		};
-		83EAB2B8446D34E1EFC4641FF39A2235 /* DQSKit */ = {
+		9E1CBE828CE96D89D156DD09345026F3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3150AE0441437D324D444DF5B1C7DA8D /* ReplaceMe.swift */,
-				4DE4976BF6637D9E8C5C40DECED319C1 /* Pod */,
-				4C1618E85B52B16CD37D74414FA0C7F7 /* Support Files */,
+				1B625D42635598CEB3ABC81768EDCBDB /* DQSKit.podspec */,
+				6A7B5B46D2E0C124415B12BE8C33A157 /* LICENSE */,
+				7BDF37E649C1BC0609FA48492C976E43 /* README.md */,
 			);
-			name = DQSKit;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B3484B2A573D5BA75061746681CE2BE1 /* Pods-DQSKit_Example */ = {
@@ -225,6 +214,17 @@
 				A5C9C8929B572E56F31CD7E45BD43392 /* Pods_DQSKit_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C196AC12A271DE77192EA70997314D /* DQSKit */ = {
+			isa = PBXGroup;
+			children = (
+				D05B58F3EB7BF17807B389A95C175238 /* DQSUtils.swift */,
+				9E1CBE828CE96D89D156DD09345026F3 /* Pod */,
+				19724564E8DCCE77100FCF6523F913CB /* Support Files */,
+			);
+			name = DQSKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +300,7 @@
 			buildConfigurationList = 8788367398D4AD5F4753B36B2EC9F373 /* Build configuration list for PBXNativeTarget "DQSKit" */;
 			buildPhases = (
 				162016CFB7628B6163D02CDFF95B94E6 /* Headers */,
-				4A741D27616C161D84A39FDDC7649363 /* Sources */,
+				849C34EA352810D490B99A6383D940B6 /* Sources */,
 				391296F709A86EE15EB466CEAA2B1B5E /* Frameworks */,
 				F0D79E284179EA2945450F146107978D /* Resources */,
 			);
@@ -374,20 +374,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A741D27616C161D84A39FDDC7649363 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				39EA4565FD16FE8D3B066ACCF1F1FB69 /* DQSKit-dummy.m in Sources */,
-				7E355E0C66F51013FDFAB4FF15AF6944 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7FAE9F1371F2A2D7EEAA387997E3BC7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E40E600EF67452364324ACEA94AC78AB /* Pods-DQSKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849C34EA352810D490B99A6383D940B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1AD3CDB1CECEE6D1C9077BFDB52CD5 /* DQSKit-dummy.m in Sources */,
+				D6838F149A023AA40E123C42C73FFD25 /* DQSUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +445,38 @@
 			};
 			name = Release;
 		};
+		3B0F937039B56D1AD2509EA9EED7337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1E4C7CE0D130640932878CA924BCE1 /* DQSKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DQSKit/DQSKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQSKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQSKit/DQSKit.modulemap";
+				PRODUCT_MODULE_NAME = DQSKit;
+				PRODUCT_NAME = DQSKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3C29090185A47383ECEDD5ACB6D9DD71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF1B5289E23E2170DA1F3ED8B4DD9D4A /* Pods-DQSKit_Tests.release.xcconfig */;
@@ -479,9 +511,9 @@
 			};
 			name = Release;
 		};
-		490B46DF0795B01295CC1A408E0A308E /* Debug */ = {
+		4BDB3A9EBEAF2916ACE566CC1733EF61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 315A64C28117B9E0D037E1EB2F46D9F2 /* DQSKit.xcconfig */;
+			baseConfigurationReference = AC1E4C7CE0D130640932878CA924BCE1 /* DQSKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -503,13 +535,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		56228023314007CB95F0877C0C49D438 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -702,40 +736,6 @@
 			};
 			name = Debug;
 		};
-		C0818952B8063796B96E078B6D215BA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 315A64C28117B9E0D037E1EB2F46D9F2 /* DQSKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DQSKit/DQSKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DQSKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DQSKit/DQSKit.modulemap";
-				PRODUCT_MODULE_NAME = DQSKit;
-				PRODUCT_NAME = DQSKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -751,8 +751,8 @@
 		8788367398D4AD5F4753B36B2EC9F373 /* Build configuration list for PBXNativeTarget "DQSKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				490B46DF0795B01295CC1A408E0A308E /* Debug */,
-				C0818952B8063796B96E078B6D215BA7 /* Release */,
+				3B0F937039B56D1AD2509EA9EED7337C /* Debug */,
+				4BDB3A9EBEAF2916ACE566CC1733EF61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

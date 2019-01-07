@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import DQSKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //Sample code to help others to understand how to use the DQSKit
+        let res = DQSUtils.sayHello()
+        print(res)
+        
     }
 
     override func didReceiveMemoryWarning() {
