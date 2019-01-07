@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0365FB5E1F7A541EBEE2E49F /* Pods-DQSKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQSKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQSKit_Example/Pods-DQSKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		095080F429CABF85BCFA0AA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		13E9A9497DCACCD67EEFC958 /* DQSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DQSKit.podspec; path = ../DQSKit.podspec; sourceTree = "<group>"; };
+		095080F429CABF85BCFA0AA3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		13E9A9497DCACCD67EEFC958 /* DQSKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DQSKit.podspec; path = ../DQSKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* DQSKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQSKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		607FACE51AFB9204008FA782 /* DQSKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQSKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		78C310623297D5A6F0286804 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		78C310623297D5A6F0286804 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		851E985B957BB98C9088C190 /* Pods-DQSKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQSKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQSKit_Example/Pods-DQSKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9973C6EAA87937F4C3DA8BFF /* Pods_DQSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B824E12FDD73200C3C5B0DE2 /* Pods-DQSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQSKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQSKit_Tests/Pods-DQSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
