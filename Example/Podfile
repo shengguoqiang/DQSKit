@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DQSKit_Example' do
+  pod 'DQSKit', :path => '../'
+
+  target 'DQSKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
