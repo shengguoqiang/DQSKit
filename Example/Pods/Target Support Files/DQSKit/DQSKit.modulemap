@@ -1,0 +1,6 @@
+framework module DQSKit {
+  umbrella header "DQSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

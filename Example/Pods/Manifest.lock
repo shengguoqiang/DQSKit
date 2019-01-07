@@ -1,0 +1,16 @@
+PODS:
+  - DQSKit (0.1.0)
+
+DEPENDENCIES:
+  - DQSKit (from `../`)
+
+EXTERNAL SOURCES:
+  DQSKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DQSKit: 4a6c8ba9e33342dbb92b439d90eadf1fbdfd6d5f
+
+PODFILE CHECKSUM: 310502f55c27296a1443589aa684aa4c40ba01a0
+
+COCOAPODS: 1.5.3
